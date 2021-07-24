@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>2ndExamTest</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Coffee</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+        </ul>
+    </header>
+    <main>
+        <fieldset>
+            <legend>Order your drink</legend>
+                <form id='order'>
+                    <label id="name_" for="name">Name<input required id="name" type="text"></label>
+                    <h3>What's your Drink ?</h3>
+                    <label for="tea">tea<input required id="tea" name="type" type="radio"></label>
+                    <label for="nescaffe">nescaffe<input required id="nescaffe" name="type" type="radio"></label>
+                    <label for="coffeBlack">coffeBlack<input required id="coffeBlack" name="type" type="radio"></label>
+                    <h3>Want milk ?</h3>
+                    <label for="">milk<input id="milk" type="checkbox"></label>
+                    <input type="submit">
+                </form>
+            
+        </fieldset>
+
+        <section id="list">
+            <ul id="ulist"></ul>
+        </section>
+        <script src="app.js"></script>
+    </main>
+</body>
+
+</html>
